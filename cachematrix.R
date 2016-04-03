@@ -2,7 +2,7 @@
 ## This function creates a special "matrix" object that 
 ## has a list of functions attached to it; a 'function list'. 
 
-makeCacheMatrix <- function(x = numeric()) {
+makeCacheMatrix <- function(x = matrix()) {
       i <- NULL #Set the local inverse to nil when this function is called
       set <- function(y) {
             x <<- y
